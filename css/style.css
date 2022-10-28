@@ -1,0 +1,186 @@
+/* header styles */
+.bg-img{
+    background-image: url(../images/mohamed-ajufaan-GFcWwwGNu_w-unsplash.png);
+    max-width: 1366px;
+    width: 100%;
+    height: 324px;
+    position: relative;
+}
+.bg-img::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 60%;
+    position: relative;
+}
+.wrapper{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 30px;
+    position: absolute;
+    z-index: 5;
+}
+.logo{
+    margin-right: 439px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-left: 139px;
+    font-family: 'Poppins';
+}
+.nav-a{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Poppins';
+}
+.margin{
+    margin-right: 50px;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.h2{
+    top: 146px;
+    left: 139px;
+    font-size: 42px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 5;
+    font-family: 'Poppins';
+}
+.header-text{
+    top: 219px;
+    left: 139px;
+    display: flex;
+    position: absolute;
+    z-index: 5;
+
+}
+.text1{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+
+}
+.text{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+
+}
+.text::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 19px;
+    background-color: #FFFFFF;
+    margin: 0 14px 0 15px;
+    vertical-align: middle;
+}
+/* section1 */
+.section1{
+    display: flex;
+}
+.left-box{
+    max-width: 444px;
+    width: 100%;
+    height: 388px;
+    padding: 127px 0 127px 139px;
+    margin-right: 108px;
+}
+.active{
+    color: #5863F8;
+    margin-bottom: 1px;
+}
+.h3{
+    color: #000000;
+    font-size: 42px;
+    font-family: 'Poppins';
+    max-width:375px;
+    width: 100%;
+    height: 115px;
+    margin-bottom: 10px;
+}
+.text-p{
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: #000000;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: 'Poppins';
+    }
+.read-more{
+    max-width: 184px;
+    width: 100%;
+    height: 50px;
+    background-color: #5863F8;
+    margin-top: 20px;
+}
+.read-more-p{
+    color: #FFFFFF;
+    padding: 15px 45px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    margin-right: 5px;
+}
+.read-more-p::after{
+    content: url(../images/arrow-right\ \(1\).png);
+    width: 11px;
+    align-items: center;
+}
+.right-box{
+    max-width: 536px;
+    width: 100%;
+    height: 461px;
+    padding: 90px 139px 90px
+}
+.div-img{
+    margin-right: 16px;
+}
+.right-box-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+/* section2 */
+.container{
+    background-image:url(../images/chris-lee-70l1tDAI6rM-unsplash.jpg);
+    max-width: 1366px;
+    width: 100%;
+    height: 612px;
+    margin-top: 190px;
+    position: relative;
+}
+.container::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 60%;
+    position: relative;
+}
+.about-us{
+    padding-left: 139px;
+    padding-top: 92px;
+    position: absolute;
+    color: #5863F8;
+    font-size: 14px;
+    font-family: 'Poppins';
+    z-index: 5;
+}
+.h4{
+    font-size: 42px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 5;
+    font-family: 'Poppins';
+    max-width: 376px;
+    top: 125px;
+    left: 139px;
+}
