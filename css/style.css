@@ -31,6 +31,8 @@
     font-size: 14px;
     padding-left: 139px;
     font-family: 'Poppins';
+    max-width: 86px;
+    width: 100%;
 }
 .nav-a{
     color: #FFFFFF;
@@ -82,9 +84,16 @@
     margin: 0 14px 0 15px;
     vertical-align: middle;
 }
+.bar{
+    color: #FFFFFF;
+    font-size: 20px;
+    display: none;
+}
 /* section1 */
 .section1{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .left-box{
     max-width: 444px;
@@ -183,4 +192,200 @@
     max-width: 376px;
     top: 125px;
     left: 139px;
+}
+.parent{
+    max-width: 1088px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: 0 auto;
+    padding-left: 139px;
+}
+.child{
+    max-width: 260px;
+    width: 100%;
+    height: 260px;
+    background-color: #FFFFFF;
+    margin-top: 262px;
+    margin-right: 16px;
+    z-index: 5;
+    padding-top: 27px;
+
+}
+.icon-div{
+    width: 58px;
+    height: 58px;
+    background-color: #5863F8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;;
+
+}
+.child-h{
+    padding-left: 47px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+    margin-top: 15px;
+
+}
+.child-p{
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Poppins';
+    padding-bottom: 26px;
+    padding-left: 20px;
+    color: #B1B1B1;
+}
+/* section3 */
+.section3{
+    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding-bottom: 105px; */
+}
+.section-t{
+    font-size: 14px;
+    font-family: 'Poppins';
+    color: #5863F8;
+    margin-bottom: 1px;
+}
+.section3-div{
+    max-width: 512px;
+    width: 100%;
+    height: 305px;
+    padding: 139px 50px 132px 105px;
+}
+.section3-h{
+    font-size: 42px;
+    font-family: 'Poppins';
+    margin-bottom: 34px;
+    height: 115px;
+    max-width: 512px;
+    width: 100%;
+}
+.section3-p{
+    font-size: 18px;
+    font-family: 'Poppins';
+    margin-bottom: 48px;
+    vertical-align: middle;
+}
+.section3-p::before{
+    content: url(../images/marius-ciocirlan-vMV6r4VRhJ8-unsplash.png);
+    vertical-align: middle;
+    margin-right: 19px;
+}
+.info{
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+.section3-img{
+    height: 100%;
+    max-width: 583px;
+    width: 100%;}
+
+ /* section4 */
+.section4-p{
+    padding-top: 90px;
+    padding-left: 139px;
+    font-size: 14;
+    color: #5863F8;
+    font-family: 'Poppins';
+    }
+.section4-h{
+    font-size: 42px;
+    font-family: 'Poppins';
+    margin-bottom: 50px;
+    max-width: 565px;
+    width: 100%;
+    padding-left: 139px;
+}
+.section4-div{
+    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+.footer-bg {
+    background-color: #121212;
+    padding: 90px 0 40px 0;
+}
+.footer-p{
+    color: #B1B1B1;
+    font-size: 14px;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 139px;
+    padding-right: 200px;
+}
+.footer-block01 {
+    width: 260px;
+}
+.list{
+    margin-bottom: 20px;
+}
+.footer-h{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: 'Poppins';
+    margin-bottom: 20px;
+}
+.nav-h{
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+}
+.footer-ul{
+    color: #5863F8;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+.contact-icon {
+    color: #5863F8;
+    margin-right: 14px;
+}
+.footer-social-icons {
+    display: flex;
+}
+.size-social {
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soc-contact-fb {
+    background-color: #3B5998; 
+}
+.soc-contact-twitter {
+    background-color: #55ACEE;
+    margin:0 15px;
+}
+.soc-contact-google {
+    background-color: #DC4E41;
+}
+.copyright{
+    color:#B1B1B1;
+    padding-left: 139px;
+    margin-top: 54px;
+    font-size: 14px;
+    font-family: 'Poppins';
+
+}
+.span{
+color: #5863F8
 }
